@@ -11,7 +11,7 @@ import Services from './Services';
 import { ThemeProvider } from 'styled-components';
 import GlobalStyle from './GlobalStyle';
 import GotoTop from "./components/GotoTop";
-import Color from './Color';
+
 
 
 function App() {
@@ -53,7 +53,6 @@ function App() {
      <Route path='/about' element={<About/>} />
      <Route path='/services' element={<Services/>} />
      <Route path='/contact' element={<Contact/>} />
-     <Route path='/color ' element={<Color />} />
      
      </Routes>
       <GotoTop/>

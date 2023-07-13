@@ -49,7 +49,7 @@ const AppProvider = ({ children }) => {
     return dispatch({
       type: "ABOUT_UPDATE",
       payload: {
-        name: "MR. JOY",
+        name: "MR. omar farquek joy",
         image: AboutImage,
       },
     });
